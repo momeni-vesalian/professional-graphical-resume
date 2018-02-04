@@ -31,8 +31,8 @@ This package is a set of general layout commands to generate a professional grap
 
 * **\align\[options]{content}:** Align _content_ according to _options_.
     * _options:_ Can be _vertical_ or _horizontal_.
-        * _vertical:_ Must be _top_, _middle_ or _bottom_.
-        * _horizontal:_ Must be _left_, _right_, _center_ or _justify_.
+        * _vertical:_ Must be _top_, _middle_, or _bottom_.
+        * _horizontal:_ Must be _left_, _right_, _center_, or _justify_.
 
 * **\header{image url}{title}:** Create a nice header with the given _image_ and _title_.
 
