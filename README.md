@@ -61,6 +61,9 @@ This package is a set of general layout commands to generate a professional grap
 * **rsection\[font size]{title}:** Create a nice section with the given _title_.
     * _font size:_ _font size_ of the _title_.
 
+* **rsectioncmd\[font size]{title}:** Create a nice section with the given _title_.
+    * _font size:_ _font size_ of the _title_.
+
 ##### How to use the package:
 You can use this package with _gray_ or _cream_ option as a theme.
 ```LaTex
@@ -80,6 +83,8 @@ You can use this package with _gray_ or _cream_ option as a theme.
 \begin{rsection}[font size = 12]{Hello Section}
     Hello world
 \end{rsection}
+
+\rsectioncmd[font size = 12]{Hello Section}
 
 \twopart[partition type = sidebar]{Hello world}{I love \LaTeX}
 

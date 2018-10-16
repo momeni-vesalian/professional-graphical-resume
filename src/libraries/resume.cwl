@@ -18,6 +18,8 @@
 
 \align[options: vertical = {top, middle, bottom}, horizontal = {left, right, center, justify}]{content}
 
+\rsectioncmd[options: font size = ?]{title}
+
 \header{image url}{title}
 \skill[options: location = {sidebar, mainbar}]{title}{0.028 <= percent <= 1}
 \education{university}{degree}{field of study}{start date}{end date}

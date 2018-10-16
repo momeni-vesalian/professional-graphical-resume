@@ -101,12 +101,7 @@
 }
 
 \newenvironment{rsection}[2][]{
-    \options{/resume, font size = 12}
-    \options{/resume, #1}
-    {\setfontsize{\option{/resume/font size}} \bfseries \color{captionclr} \uppercase{#2}}
-    \vspace{3pt}
-    {\color{rulerclr} \hrule height 0.8pt}
-    \vspace{7pt}
+    \rsectioncmd[#1]{#2}
 }{
 }
 
@@ -172,6 +167,15 @@
     \align@vertical{\option{/resume/align/vertical}}{
         \align@horizontal{\option{/resume/align/horizontal}}{#2}
     }
+}
+
+\newcommand{\rsectioncmd}[2][]{
+    \options{/resume, font size = 12}
+    \options{/resume, #1}
+    {\setfontsize{\option{/resume/font size}} \bfseries \color{captionclr} \uppercase{#2}}
+    \vspace{3pt}
+    {\color{rulerclr} \hrule height 0.8pt}
+    \vspace{7pt}
 }
 
 \newcommand{\header}[3][]{
