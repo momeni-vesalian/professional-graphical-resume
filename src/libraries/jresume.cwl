@@ -1,5 +1,5 @@
 %%
-%% Author: Ali Asghar Momeni Vesalian (momeni.vesalian@gmail.com)
+%% Author: Aliasghar Momeni Vesalian (momeni.vesalian@gmail.com)
 %% 12/30/2017 AD
 %% Related Package: jresume.sty
 %% Options of Package: gray, blue, cream
